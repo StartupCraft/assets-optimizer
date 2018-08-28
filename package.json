@@ -1,6 +1,6 @@
 {
   "name": "assets-optimizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bunch of assets optimizers (svg, png, jpg, etc...)",
   "repository": "https://github.com/StartupCraft/assets-optimizer.git",
   "author": "George Viazemsky <code@and.graphics>",
