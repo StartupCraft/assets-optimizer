@@ -1,6 +1,6 @@
 {
   "name": "assets-optimizer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bunch of assets optimizers (svg, png, jpg, etc...)",
   "repository": "https://github.com/StartupCraft/assets-optimizer.git",
   "author": "George Viazemsky <code@and.graphics>",
@@ -9,6 +9,9 @@
   "bin": {
     "optimize": "./lib/cli.js"
   },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "babel src/ -d lib/",
     "lint": "eslint src ",
