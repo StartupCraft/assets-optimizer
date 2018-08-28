@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import SVGO from 'svgo'
-import filesize from 'filesize.js'
+import filesize from 'filesize'
 import glob from 'glob'
 
 import svgConfig from '../config/svg'

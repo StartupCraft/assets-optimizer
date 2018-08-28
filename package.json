@@ -42,7 +42,7 @@
     "prettier": "1.14.2"
   },
   "dependencies": {
-    "filesize.js": "1.0.2",
+    "filesize": "3.6.1",
     "glob": "7.1.3",
     "shelljs": "0.8.2",
     "svgo": "1.0.5"
