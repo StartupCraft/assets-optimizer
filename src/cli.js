@@ -13,7 +13,10 @@ try {
   if (!optimizers.includes(optimizer))
     throw new Error(`Optimizer '${optimizer}' not found`)
 
-  optimize[optimizer](path || 'src')
+  optimize[optimizer](
+    path === '--save-already-optimized' ? 'src' : path || 'src',
+    path === '--save-already-optimized',
+  )
 } catch (error) {
   console.log('Error:', error.message)
 }
